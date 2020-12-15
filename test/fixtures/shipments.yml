@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  remote_order_number: MyString
+  status: MyString
+  product: one
+  shipped_at: 2020-12-15 12:41:22
+
+two:
+  email: MyString
+  remote_order_number: MyString
+  status: MyString
+  product: two
+  shipped_at: 2020-12-15 12:41:22

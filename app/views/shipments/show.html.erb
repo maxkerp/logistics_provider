@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @shipment.email %>
+</p>
+
+<p>
+  <strong>Remote order number:</strong>
+  <%= @shipment.remote_order_number %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @shipment.status %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @shipment.product_id %>
+</p>
+
+<p>
+  <strong>Shipped at:</strong>
+  <%= @shipment.shipped_at %>
+</p>
+
+<%= link_to 'Edit', edit_shipment_path(@shipment) %> |
+<%= link_to 'Back', shipments_path %>

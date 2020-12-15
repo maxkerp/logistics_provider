@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :shipments
   root to: "products#index"
 
   resources :products
